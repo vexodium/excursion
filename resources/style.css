@@ -3,16 +3,46 @@ body {
   text-align: center;
 }
 
-h1 {
+video {
+  object-fit: contain;
+}
+
+.header {
   font-family: Verdana;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 50px;
   color: white;
   text-align: center;
 }
 
-link1, a {
+.link1, a {
   color: aquamarine;
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: normal;
+}
+
+.travel {
+  font-family: Verdana;
   font-weight: bold;
+  font-size: 42px;
+  color: white;
+}
+
+.para {
+  color: gray;
+  font-family: Verdana;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.soon {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 42px;
+  color: white;
+}
+
+.foot {
+  text-align: right;
+  color: gray;
 }
